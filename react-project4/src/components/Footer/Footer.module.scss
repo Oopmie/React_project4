@@ -1,0 +1,6 @@
+@use '../style_layout.scss' as st;
+
+.Footer{
+    @extend %df-column;
+
+}

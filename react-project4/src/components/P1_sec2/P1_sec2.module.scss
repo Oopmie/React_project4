@@ -1,0 +1,6 @@
+@use '../style_layout.scss' as st;
+
+.P1_sec2{
+    @extend %df-column;
+
+}

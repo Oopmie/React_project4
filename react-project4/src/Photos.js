@@ -18,6 +18,7 @@ import s6 from "../src/Photos/s6.png"
 import s7 from "../src/Photos/s7.png"
 import s8 from "../src/Photos/s8.png"
 import s9 from "../src/Photos/s9.png"
+import img3 from "../src/Photos/img3.png"
 
 export const Photos = {
     logo:logo,
@@ -42,4 +43,5 @@ export const Photos = {
     s7:s7,
     s8:s8,
     s9:s9,
+    img3:img3
 }
