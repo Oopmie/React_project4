@@ -1,0 +1,36 @@
+@use '../style_layout.scss' as st;
+
+.P1_sec3 {
+    @extend %df-column;
+    background-color: black;
+
+    div {
+        width: 50%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        h1 {
+            font: {
+                size: 70px;
+                weight: 400
+            }
+        }
+
+        img{
+            height: 80%;
+        }
+
+        p {
+            font: {
+                size: 28px;
+                weight: 400;
+            }
+
+            text-align: center;
+            width: 90%;
+        }
+    }
+}

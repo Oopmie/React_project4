@@ -8,7 +8,7 @@ export default function P1_sec3() {
                 <div>
                     <h1>THE QUEST FOR BETTER.</h1>
                     <img src={Photos.img3} alt="" />
-                    <p>The perfect balance of science, nature and technology. Prepare to look and feel your absolute best.</p>
+                    <p>At LYMA, we’re always searching for the perfect balance of science, nature and technology. Every LYMA product has been designed to work together. We know that when we discover the best, you’ll discover yours.</p>
                 </div>
             </section>
         </>
