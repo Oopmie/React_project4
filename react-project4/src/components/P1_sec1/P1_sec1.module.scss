@@ -1,6 +1,45 @@
 @use '../style_layout.scss' as st;
 
-.P1_sec1{
+.P1_sec1 {
     @extend %df-column;
+    background-image: url(../../Photos/b1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
+    .container {
+        height: 40%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            font: {
+                size: 70px;
+                weight: 400
+            }
+        }
+
+        p {
+            font: {
+                size: 30px;
+                weight: 400;
+            }
+            text-align: center;
+            width: 80%;
+        }
+
+        .buts{
+            width: 60%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            button{
+                @include st.but(48%)
+            }
+        }
+    }
 }

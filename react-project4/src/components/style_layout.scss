@@ -1,12 +1,13 @@
 %df-column{
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
-@mixin but{
+@mixin but($width){
     border: {
         color: white;
         radius: 1px;
@@ -14,4 +15,7 @@
     background-color: transparent;
     color: white;
     font-size: 22px;
+    width: $width;
+    height: 6vh;
+    cursor: pointer;
 }

@@ -1,5 +1,5 @@
 import { Photos } from "../../Photos.js"
-import "../Header/header.module.scss"
+import classes from "../Header/Header.module.scss"
 export default function Header(){
     return(
         <>
@@ -12,7 +12,7 @@ export default function Header(){
                         <li>JOURNAL</li>
                         <li>ABOUT</li>
                     </ul>
-                    <div className="logo">
+                    <div className={classes.logo}>
                         <img src={Photos.logo} alt="" />
                     </div>
                     <ul>

@@ -5,7 +5,7 @@ export default function P1_sec1() {
     return (
         <>
             <section className={classes.P1_sec1}>
-                <div>
+                <div className={classes.container}>
                     <h1>THE FUTURE OF WELLNESS.</h1>
                     <p>The perfect balance of science, nature and technology. Prepare to look and feel your absolute best.</p>
                     <div className={classes.buts}>
