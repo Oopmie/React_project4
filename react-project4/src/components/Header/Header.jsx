@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom"
 import { Photos } from "../../Photos.js"
-import "../Header/header.scss"
+import "../Header/header.module.scss"
 export default function Header(){
     return(
         <>
