@@ -1,4 +1,4 @@
-%df-column{
+%df-column {
     height: 90vh;
     width: 100%;
     display: flex;
@@ -7,14 +7,16 @@
     align-items: center;
     color: white;
 }
-%container_st{
+
+%container_st {
     display: flex;
     justify-content: center;
     align-items: end;
     height: 90%;
     width: 49%;
 }
-%inner_cont{
+
+%inner_cont {
     width: 70%;
     height: 40%;
     display: flex;
@@ -22,15 +24,26 @@
     justify-content: space-between;
     align-items: center;
 }
-@mixin but($width){
+
+@mixin but($width) {
     border: {
         color: white;
         radius: 1px;
     }
+
     background-color: transparent;
     color: white;
     font-size: 22px;
     width: $width;
     height: 6vh;
     cursor: pointer;
+
+    &:hover {
+        background-color: white;
+        color: black;
+
+        a {
+            color: black;
+        }
+    }
 }

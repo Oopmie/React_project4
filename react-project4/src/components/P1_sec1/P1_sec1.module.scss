@@ -38,7 +38,11 @@
             justify-content: space-between;
             align-items: center;
             button{
-                @include st.but(48%)
+                @include st.but(48%);
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
             }
         }
     }

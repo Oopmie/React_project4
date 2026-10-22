@@ -1,12 +1,11 @@
-import { Photos } from "../../Photos.js"
 import classes from "./P1_sec2.module.scss"
 
 export default function P1_sec2() {
     return (
         <>
             <section className={classes.P1_sec2}>
-                <div className={classes.left}>
-                    <div id="SUPPLEMENT">
+                <div className={classes.left}  id="SUPPLEMENT">
+                    <div>
                         <h1>Supplement.</h1>
                         <p>Nine powerful ingredients.</p>
                         <p>One ultimate formula.</p>
@@ -16,8 +15,8 @@ export default function P1_sec2() {
                         </div>
                     </div>
                 </div>
-                <div className={classes.right}>
-                    <div id="LASER">
+                <div className={classes.right}  id="LASER">
+                    <div>
                         <h1>Laser.</h1>
                         <p>Ultimate skin regeneration.</p>
                         <p>A new dawn for beauty.</p>
