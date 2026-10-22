@@ -2,39 +2,100 @@
     width: 100%;
     height: 65vh;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
+
     background: {
         image: url(../../Photos/b5.png);
         repeat: no-repeat;
         size: cover;
-        position: center
+        position: center;
     }
 
-    div{
+    @media (max-width: 900px) {
+        height: auto;
+        min-height: 50vh;
+        justify-content: center;
+    }
+
+    div {
         width: 50%;
         height: 40%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: start;
-        h1{
+        align-items: flex-start;
+
+        @media (max-width: 1600px) {
+            height: auto;
+            gap: 20px;
+        }
+
+        @media (max-width: 900px) {
+            width: 80%;
+            align-items: center;
+            text-align: center;
+        }
+
+        @media (max-width: 500px) {
+            width: 90%;
+            gap: 15px;
+        }
+
+        h1 {
             font: {
                 size: 50px;
-                weight:400
+                weight: 400;
+            }
+
+            @media (max-width: 1600px) {
+                font-size: 42px;
+            }
+
+            @media (max-width: 900px) {
+                font-size: 36px;
+            }
+
+            @media (max-width: 500px) {
+                font-size: 28px;
             }
         }
-        p{
+
+        p {
             color: #666666;
             font-size: 26px;
             width: 55%;
+
+            @media (max-width: 1600px) {
+                font-size: 22px;
+                width: 70%;
+            }
+
+            @media (max-width: 900px) {
+                font-size: 18px;
+                width: 100%;
+            }
+
+            @media (max-width: 500px) {
+                font-size: 15px;
+            }
         }
-        a{
+
+        a {
             text-decoration: none;
             color: black;
+
             font: {
                 size: 20px;
-                weight:400
+                weight: 400;
+            }
+
+            @media (max-width: 1600px) {
+                font-size: 18px;
+            }
+
+            @media (max-width: 500px) {
+                font-size: 16px;
             }
         }
     }
