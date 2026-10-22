@@ -1,6 +1,90 @@
 @use '../style_layout.scss' as st;
 
-.P1_sec2{
+.P1_sec2 {
     @extend %df-column;
+    flex-direction: row;
+    justify-content: space-between;
 
+    .left {
+        @extend %container_st;
+        background-image: url(../../Photos/b2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        div {
+            @extend %inner_cont;
+
+            h1 {
+                font: {
+                    size: 70px;
+                    weight: 400
+                }
+            }
+
+            p {
+                font: {
+                    size: 30px;
+                    weight: 400;
+                }
+
+                text-align: center;
+                width: 80%;
+            }
+
+            .buts {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                button {
+                    @include st.but(48%);
+                    border: none
+                }
+            }
+        }
+    }
+
+    .right {
+        @extend %container_st;
+        background-image: url(../../Photos/b21.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        div {
+            @extend %inner_cont;
+
+            h1 {
+                font: {
+                    size: 70px;
+                    weight: 400
+                }
+            }
+
+            p {
+                font: {
+                    size: 30px;
+                    weight: 400;
+                }
+
+                text-align: center;
+                width: 80%;
+            }
+
+            .buts {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                button {
+                    @include st.but(48%);
+                    border: none
+                }
+            }
+        }
+    }
 }

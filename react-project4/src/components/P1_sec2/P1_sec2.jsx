@@ -5,7 +5,7 @@ export default function P1_sec2() {
     return (
         <>
             <section className={classes.P1_sec2}>
-                <div>
+                <div className={classes.left}>
                     <div id="SUPPLEMENT">
                         <h1>Supplement.</h1>
                         <p>Nine powerful ingredients.</p>
@@ -16,7 +16,7 @@ export default function P1_sec2() {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className={classes.right}>
                     <div id="LASER">
                         <h1>Laser.</h1>
                         <p>Ultimate skin regeneration.</p>
